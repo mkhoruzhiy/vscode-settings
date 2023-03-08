@@ -1,1 +1,35 @@
-
+export
+code --list-extensions > extensions.list
+import
+cat extensions.list |% { code --install-extension $_}
+----------------------------------------------------
+alefragnani.numbered-bookmarks
+aliasadidev.nugetpackagemanagergui
+bencoleman.armview
+bewhite.psrule-vscode
+danish-naglekar.dataverse-devtools
+DavidKol.fastcompare
+ms-azure-devops.azure-pipelines
+ms-azuretools.azure-dev
+ms-azuretools.vscode-azureappservice
+ms-azuretools.vscode-azurefunctions
+ms-azuretools.vscode-azureresourcegroups
+ms-azuretools.vscode-azurestaticwebapps
+ms-azuretools.vscode-azurestorage
+ms-azuretools.vscode-azurevirtualmachines
+ms-azuretools.vscode-bicep
+ms-azuretools.vscode-cosmosdb
+ms-dotnettools.csharp
+ms-dotnettools.vscode-dotnet-runtime
+ms-vscode.azure-account
+ms-vscode.azurecli
+ms-vscode.powershell
+ms-vscode.powershell-preview
+ms-vscode.vscode-node-azure-pack
+msazurermtools.azurerm-vscode-tools
+rangav.vscode-thunder-client
+redhat.vscode-yaml
+rioj7.vscode-json-validate
+Vue.volar
+wilfriedwoivre.arm-params-generator
+zokugun.cron-tasks
